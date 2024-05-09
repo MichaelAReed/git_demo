@@ -12,9 +12,9 @@ def gen_damped_data():
 
 def setup_plot():
     fig, ax = plt.subplots()
-    # fig.suptitle("Some desalination stuff.")
-    # ax.set_xlabel("time (s)")
-    # ax.set_ylabel("Voltage (mV)")
+    fig.suptitle("Some desalination stuff.")
+    ax.set_xlabel("time (s)")
+    ax.set_ylabel("Voltage (mV)")
     return fig, ax
 
 
